@@ -1,0 +1,280 @@
+/*
+	author: Salehur Rahman;
+	Responsive web designer;
+	copyright 2018 shishir;
+	licensed under 
+*/
+
+/* 
+	1. Global css
+	2. Header css
+	3. hero css
+	4. Introduction css
+	5. Design css
+	6. Navigation css
+	7. Multimedia css
+	8. Usability css
+	9. Copyright css
+	10. Technique css
+	11. Highlight css
+	12. Reference css
+	13. Design principle css 
+*/
+
+/********** 1. Global css **********/
+
+body{
+	font-family: 'Lato', sans-serif;
+
+	margin: 0px!important;
+	padding: 0px!important;
+
+}
+.pink{
+	color: #ed145b;
+}
+
+.bg-white{
+	background-color: white!important;
+}
+
+.text-white{
+	color: white;
+}
+
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+
+p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px!important;
+	font-weight: 300px;
+	line-height: 30px;
+}
+
+.lead{
+	font-size: 24px!important;
+}
+
+h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+}
+
+h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 36px;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+}
+
+h4{
+	font-family: 'Lato', sans-serif;
+}
+
+h5{
+
+}
+
+h6{
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300px;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.no-padding{
+	padding: 0px!important;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+/********** 2. Header css **********/
+.header{
+	padding: 35px 0px!important;
+	background-color: #222222!important;
+}
+
+.navbar{
+	padding: 0px !important;
+	background-color: #222222!important;
+	border-bottom: 1px solid black;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	padding-top: 15px!important;
+	padding-bottom: 15px!important;
+	padding-left: 12px!important;
+	padding-right: 12px!important;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, 
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, 
+.navbar-dark .navbar-nav .show>.nav-link{
+	color: white!important;
+	background-color: black!important;
+}
+
+/************ banner css ************/
+
+.banner{
+	background: url(../img/pexels-photo-1179156.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.6);
+}
+
+.banner-heading{
+	padding: 100px 0px 200px 0px;
+}
+
+.banner button{
+	padding: 20px 50px!important;
+	border: 2px solid white!important;
+	border-radius: 0px!important;
+}
+
+.banner h1{
+	font-size: 45px;
+	font-weight: bold;
+}
+
+
+/*********** introduction css ************/
+
+.introduction{
+	padding: 60px 0px;
+	color: white;
+}
+
+.introduction-part{
+	margin-top: 30px;
+}
+
+.introduction-divider{
+	border-left: 5px solid white;
+}
+
+
+/************ multimedia css *************/
+
+.multimedia{
+	padding: 60px 0px;
+}
+
+.multimedia img{
+	border: 7px solid white;
+}
+
+.multimedia iframe{
+	border: 7px solid white;
+}
+
+/************ usability css *************/
+
+.usability .card{
+	background-color: white!important;
+	border: 0px;
+	border-radius: 0px!important;
+}
+
+.usability .card-body{
+	border-radius: 0px!important;
+}
+.usability .card:hover{
+
+}
+
+.usability{
+	padding: 20px 0px 40px 0px;
+}
+
+/*********** copyright css ************/
+
+.copyright{
+	padding: 60px 0px;
+}
+
+.powered{
+	text-decoration: underline;
+}
+
+.fa-copyright{
+	font-size: 150px;
+	margin-bottom: 30px;
+}
+
+
+/********** technique css *************/
+
+.technique{
+	padding: 60px 0px;
+}
+.technique-part{
+	margin-top: 40px;
+}
+
+.technique-part img{
+	width: 450px;
+	height:200px;
+}
+
+/*********** references css ***********/
+
+.reference{
+	padding: 60px 0px 160px 0px;
+}
+
+/*********** principle css ************/
+
+.principle{
+	padding: 60px 0px;
+}
+
+.principle-part{
+	margin-top: 30px;
+}
+
+/********** footer css **********/
+
+footer{
+	background-color: white!important;
+}
+
+
+
+
+
+@media (max-width: 767px){
+		
+}
